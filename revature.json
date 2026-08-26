@@ -1,0 +1,20 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "tests/lab_test.py",
+      "testCases": [
+        {
+          "methodName": "test_activity_outer_join1",
+          "label": "Verify LEFT OUTER JOIN of class and student",
+          "description": "Runs problem1(), which should return every class paired with its students (or NULL if there are none) using a LEFT OUTER JOIN."
+        },
+        {
+          "methodName": "test_activity_outer_join2",
+          "label": "Verify RIGHT OUTER JOIN of class and textbook",
+          "description": "Runs problem2(), which should return every textbook paired with its class (or NULL if there is none) using a RIGHT OUTER JOIN."
+        }
+      ]
+    }
+  ]
+}
